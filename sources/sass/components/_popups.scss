@@ -1,0 +1,140 @@
+// Popup styling
+.popup {
+  position: fixed;
+  top: 0;
+  z-index: 98;
+  width: 100vw;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($color-black, .8);
+
+  .popup-content {
+    position: relative;
+    width: 90rem;
+    box-shadow: $global-box-shadow;
+    border-radius: $global-border-radius;
+    background-color: $color-white;
+
+    .popup-header {
+      position: relative;
+      height: 17.5rem;
+      background-image: url("../assets/placeholders/info-placeholder.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: .5rem .5rem 0 0;
+
+      .close-popup {
+        position: absolute;
+        right: 3rem;
+        top: 3rem;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: $color-grey;
+        background-color: $color-white;
+        border-radius: $global-border-radius;
+        box-shadow: $global-box-shadow;
+        transition: $global-transition;
+
+        &:hover {
+          box-shadow: 0 .2rem .6rem rgba($color-black, .5);
+        }
+      }
+
+      .popup-icon {
+        position: absolute;
+        bottom: -3.75rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 7.5rem;
+        height: 7.5rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 99rem;
+        color: $color-white;
+        background-color: $color-orange;
+        box-shadow: $global-box-shadow;
+
+        &:before {
+          content: '\f06e';
+          font-family: "Font Awesome 5 Free";
+        }
+      }
+    }
+
+    .popup-inner {
+      padding: 3rem;
+
+      .popup-title {
+        text-align: center;
+      }
+
+      .popup-quote {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .popup-video {
+        height: 10rem;
+        margin-top: 3rem;
+        border: 1px solid $color-light-grey;
+        border-radius: $global-border-radius;
+      }
+    }
+  }
+}
+
+// Tooltip styling
+.tooltip {
+  position: absolute;
+  top: 0;
+  z-index: 98;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($color-black, .8);
+
+  .tooltip-content {
+    position: relative;
+    width: 75rem;
+    padding: 3rem;
+    box-shadow: $global-box-shadow;
+    border-radius: $global-border-radius;
+    background-color: $color-white;
+
+    .close-tooltip {
+      position: absolute;
+      right: 3rem;
+      top: 3rem;
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      color: $color-white;
+      background-color: $color-orange;
+      border-radius: $global-border-radius;
+      box-shadow: $global-box-shadow;
+      transition: $global-transition;
+
+      &:hover {
+        box-shadow: 0 .2rem .6rem rgba($color-black, .5);
+      }
+    }
+
+    h4 {
+      margin: 0 0 2rem;
+    }
+  }
+}
+

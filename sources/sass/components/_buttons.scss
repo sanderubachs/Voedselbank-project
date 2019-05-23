@@ -1,0 +1,56 @@
+%button {
+  padding: .5rem 2rem;
+  border-radius: $global-border-radius;
+  box-shadow: $global-box-shadow;
+  color: $color-black;
+  transition: $global-transition;
+}
+
+.btn {
+  transition: $global-transition;
+
+  &:hover {
+    color: $color-orange;
+  }
+}
+
+.btn-primary {
+  @extend %button;
+  background-color: $color-orange;
+  color: $color-white;
+  border: none;
+  width: fit-content;
+
+  &:hover {
+    box-shadow: 0 .2rem .6rem rgba($color-black, .75);
+  }
+}
+
+.btn-secondary {
+  @extend %button;
+  border: .1rem solid $color-orange;
+  box-shadow: none;
+
+  &:hover {
+    background-color: $color-orange;
+    color: $color-white;
+    box-shadow: 0 .2rem .6rem rgba($color-black, .75);
+  }
+}
+
+.btn-home {
+  height: 4.5rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-orange;
+  background-color: $color-white;
+  border-radius: $global-border-radius;
+  box-shadow: $global-box-shadow;
+  transition: $global-transition;
+
+  &:hover {
+    box-shadow: 0 .2rem .6rem rgba($color-black, .5);
+  }
+}

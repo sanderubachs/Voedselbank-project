@@ -1,0 +1,55 @@
+$background-color: hsl(50, 5, 97);
+$black: hsl(200, 40, 10);
+$white: $background-color;
+$base-font-size: 2.4em;
+$base-line-height: 1.5em;
+
+.foto-container {
+  width:100%;
+  border:1px solid;
+  height: 50vh;
+  margin-bottom:3vh;
+  border-radius: .5rem .5rem 0 0;
+  background-image: url(../assets/placeholders/hero-placeholder.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.foto-container-side {
+  width:50%;
+  border:1px solid;
+  height: 40vh;
+  border-radius: .5rem .5rem 0 0;
+  background-image: url(../assets/placeholders/hero-placeholder.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float:right;
+  margin-left:2vh;
+  margin-top:4vh;
+}
+
+
+.intro-content {
+  text-align:justify;
+}
+
+
+
+.brooks {
+  position: relative;
+  font-family: 'Sanchez', serif;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-style: italic;
+  &:before {
+    content: '\201C';
+    position: absolute;
+    top: 0.25em;
+    left: -0.15em;
+    color: darken($white, 7%);
+    font-size: 6em;
+    z-index: -1;
+  }
+}

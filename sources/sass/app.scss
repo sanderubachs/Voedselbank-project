@@ -1,0 +1,28 @@
+// Normalize
+@import "normalize";
+
+// Variables
+@import "variables";
+
+// Base styling
+@import "base";
+
+// Typography
+@import "typography";
+
+// Website components
+@import "components/page";
+@import "components/buttons";
+@import "components/forms";
+@import "components/cards";
+@import "components/header";
+@import "components/landing";
+@import "components/faqvragen";
+@import "components/faqstart";
+@import "components/stappenplan";
+@import "components/meekijken";
+@import "components/footer";
+//@import "components/_faq-home";
+@import "components/popups";
+@import "components/faqhome";
+@import "components/story";

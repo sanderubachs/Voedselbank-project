@@ -1,0 +1,252 @@
+@-webkit-keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-webkit-keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wit-vlak {
+    width: 100rem;
+    height: auto;
+    background-color: $color-white;
+    box-shadow: $global-box-shadow;
+    border-radius: $global-border-radius;
+    margin: -25rem auto 0;
+
+    .content {
+      padding: 5rem 0 10%;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+
+      .question {
+        margin: 0 auto;
+        width: 55%;
+
+        .inner-question {
+          display: flex;
+          flex-direction: column;
+          //height: 3rem;
+          align-items: center;
+
+          .question-title {
+            text-align: center;
+            line-height: 1.5;
+            margin: 0 auto 3rem;
+            font-size: 3rem;
+            width: 100%;
+
+            .tooltip-btn {
+              cursor: pointer;
+              color: $color-orange;
+              border-radius: 99rem;
+              box-shadow: $global-box-shadow;
+              transition: $global-transition;
+
+              &:hover {
+                box-shadow: 0 .2rem .6rem rgba($color-black, .5);
+              }
+            }
+          }
+        }
+      }
+
+      .advies-knoppen {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        margin: 5rem auto 5rem;
+      }
+    }
+
+    .invul {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      margin: 0 auto 0;
+      flex-direction: row;
+
+      #inkomsten {
+        display: flex;
+
+        .column {
+
+          .form--group {
+            white-space: nowrap;
+
+            .bedrag {
+              display: flex;
+              white-space: nowrap;
+            }
+
+            .radiobutton {
+              width: auto;
+              margin-right: 2rem;
+            }
+          }
+
+          .euro {
+            margin-right: 2rem;
+            width: auto;
+            font-size: 2.5rem;
+          }
+        }
+      }
+
+      .tekst-overig {
+        width: auto;
+        white-space: nowrap;
+      }
+
+      .euro {
+        width: auto;
+        margin-left: 2rem;
+      }
+
+      .overige {
+        width: 30%;
+      }
+    }
+
+    .progress-sections {
+      display: flex;
+      width: 50%;
+      margin-left: 25%;
+      justify-content: space-around;
+
+      .section-title {
+        width: 22.5%;
+        text-align: center;
+
+        p {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    .total-progress {
+      display: flex;
+      width: 50%;
+      margin-left: 25%;
+      padding-bottom: 3%;
+
+      .progress {
+        width: 100%;
+        margin: 1rem auto;
+        border: 1px solid $color-light-grey;
+        border-radius: 999rem;
+        color: $color-white;
+        box-shadow: $global-box-shadow;
+
+        .progress-bar {
+          border-radius: 999rem;
+          min-width: 0;
+          background-color: #EE7202;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 2.5rem;
+
+          .progress-title {
+            opacity: 0;
+            -webkit-animation: show 0.1s forwards ease-in-out 0.2s;
+            animation: show 0.35s forwards ease-in-out 0.2s;
+            border-radius: 999rem;
+            font-size: 1.2rem;
+          }
+        }
+
+        &#2-huishouden {
+          -webkit-animation: progress 5.5s ease-in-out forwards;
+          animation: progress 5.5s ease-in-out forwards;
+          //min-width: 0;
+          //max-width: 20%;
+        }
+
+        &#3-inkomsten {
+          -webkit-animation: progress 1.5s ease-in-out forwards;
+          animation: progress 1.5s ease-in-out forwards;
+          max-width: 40%;
+        }
+
+        &#4-overige-inkomsten {
+          -webkit-animation: progress 1.5s ease-in-out forwards;
+          animation: progress 1.5s ease-in-out forwards;
+          width: 60%;
+        }
+
+        &#5-uitgaven {
+          -webkit-animation: progress 1.5s ease-in-out forwards;
+          animation: progress 1.5s ease-in-out forwards;
+          width: 80%;
+        }
+
+        &#6-overige-uitgaven {
+          -webkit-animation: progress 1.5s ease-in-out forwards;
+          animation: progress 1.5s ease-in-out forwards;
+          width: 100%;
+        }
+      }
+    }
+
+  .opties-stappenplan {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5rem;
+
+    .optie-stappenplan {
+      width: 20rem;
+      height: 20rem;
+      text-align: center;
+      background-color: $color-light-grey;
+      border: $global-box-shadow;
+      border-radius: $global-border-radius;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .buttons {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2.5% -5.7rem;
+  }
+}
+
+
+
+
+
+

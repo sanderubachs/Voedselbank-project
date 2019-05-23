@@ -1,0 +1,31 @@
+main {
+  width: 100vw;
+}
+
+.wrapper {
+  width: 114rem;
+  margin: -10rem auto 10rem;
+}
+
+.hero-content {
+  position: relative;
+  width: 100vw;
+  height: 35rem;
+
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../assets/placeholders/hero-placeholder.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .btn-home {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+  }
+}

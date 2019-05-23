@@ -1,0 +1,214 @@
+//.faq-bg {
+//  background-image: url("http://i386431.hera.fhict.nl/FAQ-voedselbank/assets/header-home.jpg");
+//
+//
+//  /* Full height */
+//  height: 35%;
+//  width: 100%;
+//
+//  /* Center and scale the image nicely */
+//  background-position: center;
+//  background-repeat: no-repeat;
+//  background-size: cover;
+//}
+
+//.faq-wrapper{
+//  display: grid;
+//  /*grid-gap: 20px;*/
+//  grid-gap: 10px;
+//
+//  width: 60%;
+//  margin: auto;
+//}
+
+.top-container {
+  margin-top: 20%;
+
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: 'showcase showcase' 'showcase showcase';
+
+  padding-bottom: 20px;
+  //padding-bottom: 80px;
+
+
+  //padding-top: 80px;
+  //padding-bottom: 80px;
+
+}
+
+.showcase {
+  grid-area: showcase;
+  min-height: 200px;
+
+  //padding: 3rem;
+
+  align-items: start;
+  justify-content: center;
+
+  box-shadow: var(--shadow);
+
+  background-color: white;
+  border-radius: 15px;
+
+  text-align: center;
+
+  //margin-bottom: -120px;
+
+  //width: 80%;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.input-faq{
+  text-align: center;
+}
+
+.faq-button{
+  background-color: #EE7202;
+  border: none;
+  color: white;
+  //padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  //display: inline-block;
+  //font-size: 16px;
+}
+
+
+//========= CARDS ==========
+
+.faq-boxes{
+  /*margin-top: 220px;*/
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.faq-main-box{
+  /*background: white;*/
+  //text-align: center;
+  /*padding: 5.5rem 2rem;*/
+
+  padding-left: 20px;
+  padding-bottom: 40px;
+
+  //margin-bottom: 20px;
+  //margin-top: 40px;
+
+  box-shadow: var(--shadow);
+
+  background-color: white;
+  border-radius: 15px;
+}
+
+/*================= CATEGORIE ==========================*/
+
+
+.cat-img{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.cat-text{
+  padding: 20px;
+}
+
+.cat-item{
+  display: inline-block;
+  /*background-color: #ff9811;*/
+  /*margin-top: 20px;*/
+  margin-top: -30px;
+  /*height: 200px;*/
+
+  vertical-align: top;
+}
+
+.cell{
+  text-align: center;
+}
+////
+////i.fas {
+////  height: 55px;
+////  width: 55px;
+////
+////  font-size: 130%;
+////
+////  display: inline-block;
+////  border-radius: 50%;
+////  /*box-shadow: 0px 0px 2px #888;*/
+////  background-color: #EE7202;
+////  /*padding: 0.5em 0.6em;*/
+////  padding: 0.7em 0.5em;
+////  /*padding: 1.1em 1.3em;*/
+////
+////  color: white;
+////}
+
+.faq-aanmerking {
+  background-image: url("http://i386431.hera.fhict.nl/FAQ-voedselbank/assets/header-home.jpg");
+  width: 100%;
+  height: 250px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  color: white;
+  //margin-left: 20%;
+  //margin-right: 20%;
+}
+
+//.faq-aanmerking p{
+//  color: white;
+//  margin-left: 20%;
+//  margin-right: 20%;
+//}
+
+.faq-aanmerking p, h2{
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.faq-aanmerking button{
+  color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+//========= IMAGES =============
+
+.image-back{
+  width: 100%;
+
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.image-boxes{
+  width: 120px;
+  height: 120px;
+  background-color: #EE7202;
+
+  display: inline-block;
+}
+
+//=============================
+
+.bottom-container{
+  background-color: white;
+  height: 100px;
+  margin-top: -50px;
+  text-align: center;
+
+  padding-top: 45px;
+
+  box-shadow: var(--shadow);
+
+  border-radius: 15px;
+}

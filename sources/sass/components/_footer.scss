@@ -1,0 +1,109 @@
+footer {
+  z-index: 999;
+  width: 100%;
+  position: relative;
+  margin-top: 10rem;
+  color: $color-white;
+  background-color: $color-orange;
+
+  .wrapper {
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+
+    .inner-footer {
+      .moreInformation {
+        width: fit-content;
+        max-width: 100rem;
+        padding: 1rem 6rem;
+        position: absolute;
+        top: -5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: $color-black;
+        border-radius: $global-border-radius;
+        background-color: $color-white;
+        box-shadow: $global-box-shadow;
+      }
+
+      hr {
+        color: $color-white;
+        opacity: .3;
+        margin: 2rem;
+      }
+
+      .footer-content {
+        width: 100rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+
+        .logo {
+          margin-right: 5rem;
+
+          figure {
+            width: 15rem;
+            height: 15rem;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+              width: 100%;
+            }
+          }
+        }
+
+        .inner-content {
+          width: 100%;
+          display: inline-flex;
+
+          .footer-blok {
+            width: 50%;
+
+            .inner-blok {
+              width: fit-content;
+
+              .bold-text {
+                margin-bottom: 1rem;
+              }
+
+              a {
+                display: block;
+                color: $color-white;
+              }
+
+              i {
+                margin-right: 1rem;
+              }
+            }
+
+            &:last-of-type {
+              .inner-blok {
+                margin-left: auto;
+              }
+            }
+          }
+        }
+      }
+
+      .social-media {
+        width: 100%;
+        margin: 5rem auto;
+        display: flex;
+        justify-content: center;
+
+        i {
+          margin: 0 1rem;
+          color: $color-white;
+        }
+      }
+
+      .madeBy {
+        width: fit-content;
+        margin: 5rem auto;
+      }
+    }
+  }
+}

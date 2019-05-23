@@ -1,0 +1,70 @@
+.faq--home {
+  border-radius: $global-border-radius;
+  //background-color: white;
+  .faq--search--container {
+    padding: 6rem;
+    margin-bottom: 3rem;
+    background-color: $color-white;
+    border-radius: $global-border-radius;
+    h2 {
+      text-align: center;
+    }
+  }
+  .faq--introductie{
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    padding-bottom: 4rem;
+    h3{
+      color: $color-orange;
+      font-size: 80%;
+    }
+    p{
+      font-size: 80%;
+    }
+  }
+  .faq--tags{
+    text-align: center;
+    margin-bottom: 6rem;
+    color: $color-grey;
+    li{
+      display: inline-block;
+      border: 1px solid black;
+      border-radius: 4px;
+      padding: 0.4rem 1rem;
+      font-size: 80%;
+      margin-right: 2rem;
+    }
+    li:first-child{
+      border: none;
+    }
+  }
+  .faq--categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    .info-block {
+      width: 100% !important;
+    }
+  }
+  .faq--category--container {
+    background-color: green;
+  }
+  .faq--zoeklink{
+
+  }
+}
+.faq--people--container {
+  margin-bottom: -10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 10px;
+  justify-items: center;
+  .faq--people {
+    display: inline-block;
+  }
+  img{
+    width: 150px;
+    height: 150px;
+  }
+}

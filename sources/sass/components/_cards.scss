@@ -1,0 +1,72 @@
+.intro-block {
+  width: 100rem;
+  padding: 5rem 10rem;
+  margin: 0 auto;
+  background-color: $color-white;
+  border-radius: $global-border-radius;
+  box-shadow: $global-box-shadow;
+
+  .intro-header {
+    margin-bottom: 5rem;
+    text-align: center;
+
+    h2 {
+      margin: 0;
+    }
+  }
+}
+
+.info-block {
+  width: 35rem;
+  cursor: pointer;
+  border-radius: $global-border-radius;
+  box-shadow: $global-box-shadow;
+  background-color: $color-white;
+  margin-bottom: 2rem;
+
+  .info-header {
+    position: relative;
+    height: 17.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .5rem .5rem 0 0;
+
+    .info-header-icon {
+      position: absolute;
+      bottom: -3.75rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 7.5rem;
+      height: 7.5rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 99rem;
+      color: $color-white;
+      background-color: $color-orange;
+      box-shadow: $global-box-shadow;
+
+      &:before {
+        content: '\f06e';
+        font-family: "Font Awesome 5 Free";
+      }
+    }
+  }
+
+  .info-content {
+    height: 30rem;
+    padding: 5rem;
+
+    .info-content-inner {
+      height: 100%;
+      overflow-Y: hidden;
+      text-align: left;
+
+
+      .info-content-title {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

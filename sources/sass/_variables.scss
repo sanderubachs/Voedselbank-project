@@ -1,0 +1,27 @@
+// ------------------------------
+// Variables
+// ------------------------------
+
+// Open Sans font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// Typography
+$font-default     : 'Helvetica', sans-serif;
+$font-secondary   : 'Open Sans', sans-serif;
+
+// Colors
+$color-white        : #FFFFFF;
+$color-black        : #000000;
+$color-grey         : #333333;
+$color-light-grey   : #f5f5f5;
+$color-orange       : #EE7202;
+$color-beige       : #f5deba;;
+
+// Breakpoints
+$bp-tablet    : "screen and (max-width: 768px)" !default;
+$bp-laptop    : "screen and (max-width: 1025px)" !default;
+
+// Misc
+$global-border-radius   : .5rem !default;
+$global-transition      : all .3s ease-in-out;
+$global-box-shadow      : 0 .2rem .6rem rgba($color-black, .16);
