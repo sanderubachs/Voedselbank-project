@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <link>
+        <title>
+            Hoe kan ik iets doneren?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=1
+        </url>
+    </link>
+    <link>
+        <title>
+            Wie zijn de donateurs van de Voedselbank?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=2
+        </url>
+    </link>
+    <link>
+        <title>
+            Hoeveel donateurs heeft de Voedselbank?
+        </title>
+        <url>
+           faq_antwoord.php?vraag=3
+        </url>
+    </link>
+    <link>
+        <title>
+            Hoe werkt het (ophalen) voedselpakket?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=4
+        </url>
+    </link>
+    <link>
+        <title>
+            Wat zit er allemaal in het voedselpakket?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=5
+        </url>
+    </link>
+    <link>
+        <title>
+            Waar wordt de inschrijvingsgesprek gehouden?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=6
+        </url>
+    </link>
+    <link>
+        <title>
+            Wat wordt er gevraagd tijdens het inschrijvingsgesprek?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=7
+        </url>
+    </link>
+    <link>
+        <title>
+            Ontstaan van de Voedselbank
+        </title>
+        <url>
+            faq_antwoord.php?vraag=8
+        </url>
+    </link>
+    <link>
+    <title>
+        Hoeveel Voedselbanken zijn er?
+    </title>
+    <url>
+        faq_antwoord.php?vraag=9
+    </url>
+</link>
+    <link>
+        <title>
+            Wat wordt er gedaan met de voedselveiligheid?
+        </title>
+        <url>
+        faq_antwoord.php?vraag=10
+        </url>
+    </link>
+    <link>
+        <title>
+            Wat als voedsel over de datum is?
+        </title>
+        <url>
+        faq_antwoord.php?vraag=11
+        </url>
+    </link>
+    <link>
+        <title>
+            Welke adviezen kan ik krijgen op bepaalde diensten of producten?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=12
+        </url>
+    </link>
+    <link>
+        <title>
+            Kan ik vanuit de voedselbank financiële hulp krijgen?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=13
+        </url>
+    </link>
+    <link>
+        <title>
+            Kan de Voedselbank mij ook helpen met mijn verslavingen?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=14
+        </url>
+    </link>
+    <link>
+        <title>
+            Hoe kan ik weer meegaan met de samenleving?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=15
+        </url>
+    </link>
+    <link>
+        <title>
+            Welke gegevens worden er van mij opgeslagen?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=16
+        </url>
+    </link>
+    <link>
+        <title>
+            Hoeveel mensen maken gebruik van de Voedselbank?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=17
+        </url>
+    </link>
+    <link>
+        <title>
+            Waar kan ik terecht als ik een klacht heb?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=18
+        </url>
+    </link>
+    <link>
+        <title>
+            Wat worden er met de klachten gedaan?
+        </title>
+        <url>
+            faq_antwoord.php?vraag=19
+        </url>
+    </link>
+</pages>

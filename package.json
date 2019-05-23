@@ -1,0 +1,20 @@
+{
+  "name": "voedselbank",
+  "version": "1.0.0",
+  "description": "Website Voedselbanken Nederland 2019",
+  "main": "index.php",
+  "scripts": {
+    "build-css": "node-sass --include-path scss sources/sass/app.scss public/css/app.css",
+    "watch": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.fhict.nl/I381501/valbank.git"
+  },
+  "author": "Valbank_",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.0"
+  }
+}
